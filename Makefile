@@ -29,9 +29,9 @@ build: clean setup
 .PHONY: deploy
 deploy: build
 	@echo 'Attempting a deploy to main'
-	cp CNAME public/
+	# cp CNAME public/
 	cp README.md public/
-	cp favicon.ico public/
+	# cp favicon.ico public/
 	cd public && git add -A
 	cd public &&  git commit -m 'Hugo site updated content.  See gh-pages branch for detailed info'
 	cd public && git push origin main

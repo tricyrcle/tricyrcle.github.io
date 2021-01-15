@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
+baseURL = "https://tricyrcle.github.io"
 title = "Tricyrcle"
 theme = "meghna-hugo"
 themesDir = "../.."
