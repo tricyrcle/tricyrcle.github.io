@@ -17,13 +17,13 @@ clean:
 
 .PHONY: preview
 preview:
-	hugo server -D
+	hugo server -D --themesDir=themes/
 	@echo 'The site is now being served at http://localhost:1313'
 
 .PHONY: build
 build: clean setup
 	cd public && git checkout main
-	hugo -D
+	hugo -D --themesDir=themes/
 	@echo 'The site is now ready to deploy within /public.'
 
 .PHONY: deploy
