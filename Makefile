@@ -22,17 +22,17 @@ preview:
 
 .PHONY: build
 build: clean setup
-	cd public && git checkout master
+	cd public && git checkout main
 	hugo -D
 	@echo 'The site is now ready to deploy within /public.'
 
 .PHONY: deploy
 deploy: build
-	@echo 'Attempting a deploy to master'
+	@echo 'Attempting a deploy to main'
 	cp CNAME public/
 	cp README.md public/
 	cp favicon.ico public/
 	cd public && git add -A
 	cd public &&  git commit -m 'Hugo site updated content.  See gh-pages branch for detailed info'
-	cd public && git push origin master
-	@echo 'deploy complete to master branch'
+	cd public && git push origin main
+	@echo 'deploy complete to main branch'
