@@ -4,9 +4,14 @@ banner:
   bg_image_webp : "images/backgrounds/hero-area.webp"
   bg_image : "images/backgrounds/hero-area.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Tricyrcle"
-  content : "VPN Stuff and things"
+  title : "Own your digital self."
+  content : "Your online activities are tracked. Your habits become a picture of who you are. 
+            If you'd rather remain less visible, check out our technology offerings. 
+            We combine open source technology in ways that make it easier to use, and not tied to corporations. 
+            You buy it. You own it. You use it. No strings attached. 
+            It's like buying a puppet and controlling the puppet's actions on your own, 
+            rather than buying a puppet to dress it up, only to have a corporation above you, controlling the strings."
   button:
     enable : true
-    label : "Explore Us"
+    label : "Explore Product Offerings"
     link : "#services"
