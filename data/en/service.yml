@@ -1,34 +1,30 @@
 ################################# Service #################################
 service:
-  enable : false
-  title : Our Services
+  enable : true
+  title : Our Mobile VPN Service
   service_item :
     # service item loop
-    - name : WordPress Theme
+    - name : Decentralized network
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Tunnel your internet traffic privately across a decentralized maze of thousands of anonymous nodes.
       
     # service item loop
-    - name : Responsive Design
+    - name : You are (not) here.
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Select a "you are here" pop out point that isn't actually where you are.
       
     # service item loop
-    - name : Media &amp; Advertisement
+    - name : Distributed payment
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Your service fees are distributed to node owners, enabling global economic benefits.
       
     # service item loop
-    - name : Graphic Design
+    - name : Open Source transparency
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : The distributed NKN nodes run open source software made anonymous via blockchain technology.
       
     # service item loop
-    - name : Apps Development
+    - name : Simple yet affordable
       icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
-    # service item loop
-    - name : Networking
-      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : We strive for ease of use and impact over profit, which is why our Mobile VPN service is so affordable.
+   
