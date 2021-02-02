@@ -18,7 +18,7 @@ clean:
 	rm -rf themes/
 
 .PHONY: preview
-preview: setup
+preview: clean setup
 	hugo server -D --themesDir=themes/
 	@echo 'The site is now being served at http://localhost:1313'
 
