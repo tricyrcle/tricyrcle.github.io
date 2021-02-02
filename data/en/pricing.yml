@@ -1,7 +1,7 @@
 ##################################### pricing ##############################
 pricing:
   enable : true
-  title : Our Plans
+  title : What's on the Menu
   pricing_table :
     # pricing table loop
     - name : Snack
