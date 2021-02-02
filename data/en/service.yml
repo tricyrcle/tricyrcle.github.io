@@ -3,28 +3,29 @@ service:
   enable : true
   title : Our Mobile VPN Service
   service_item :
+    
+    # service item loop
+    - name : Simple yet affordable
+      icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      content : We strive for ease of use and impact over profit, which gives you affordable privacy.
+   
+    # service item loop
+    - name : You are (not) here.
+      icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      content : Select a "you are here" pop out point that isn't actually where you are.
+      
+    # service item loop
+    - name : Distributed payment
+      icon : ti-wallet # themify icon pack : https://themify.me/themify-icons
+      content : Your service fees are distributed to node owners, enabling global economic benefits.
+
     # service item loop
     - name : Decentralized network
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
       content : Tunnel your internet traffic privately across a decentralized maze of thousands of anonymous nodes.
       
     # service item loop
-    - name : You are (not) here.
-      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Select a "you are here" pop out point that isn't actually where you are.
-      
-    # service item loop
-    - name : Distributed payment
-      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Your service fees are distributed to node owners, enabling global economic benefits.
-      
-    # service item loop
-    - name : Open Source transparency
-      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : The distributed NKN nodes run open source software made anonymous via blockchain technology.
-      
-    # service item loop
-    - name : Simple yet affordable
-      icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : We strive for ease of use and impact over profit, which is why our Mobile VPN service is so affordable.
-   
+    - name : Open source software
+      icon : ti-star # themify icon pack : https://themify.me/themify-icons
+      content : The only VPN service to leverage the security and anonymity of blockchain with the transparency of open source routing.
+    

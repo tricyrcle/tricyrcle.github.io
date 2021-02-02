@@ -3,14 +3,14 @@ about:
   enable : true
   title : About Us
   about_item :
-  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+  - icon : ti-linux # themify icon pack : https://themify.me/themify-icons
     title : We're FOSS friendly
     content : We believe in the value of free and open source software (FOSS).
 
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+  - icon : ti-face-smile # themify icon pack : https://themify.me/themify-icons
     title : We're people friendly
     content : We want to make a positive impact on society, globally.
 
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+  - icon : ti-heart # themify icon pack : https://themify.me/themify-icons
     title : We're friends
-    content : We trust and respect each other. We are technology nerds seeking impact over profit.
+    content : We trust and respect each other. We are tech nerds seeking impact over profit.

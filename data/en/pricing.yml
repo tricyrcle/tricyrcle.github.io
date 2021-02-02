@@ -9,8 +9,8 @@ pricing:
       unit : a bountiful plate full of privacy-respecting bandwidth
       services:
         - pick your exit point
-        - unlimited speed
-        - you remain anonymous, therefore no refunds (so don't lose your Snack ticket!)
+        - unlimited speed, so you can "eat" as fast as you want
+        - you remain anonymous, therefore no refunds are possible (so don't lose your Snack ticket!)
       button:
         label : "Purchase Snack ticket"
         link : "#"
@@ -18,11 +18,11 @@ pricing:
     # pricing table loop
     - name : Meal
       price : $50
-      unit : full-service annual meal plan
+      unit : a full-service meal plan that feeds you for a year
       services:
         - pick your exit point
-        - 10G monthly at unlimited speed, then throttled
-        - customer support (if you are willing to create a subscriber account)
+        - 10G/mo at unlimited speed, then throttled
+        - customer support is available (to users willing to create a valid subscriber account)
       button:
         label : "Purchase Meal plan"
         link : "#"
@@ -30,11 +30,11 @@ pricing:
     # pricing table loop
     - name : Beta
       price : free
-      unit : a taste test
+      unit : try one free taste of our delicious VPN service
       services:
-        - take a taste of our private mobile VPN service
-        - fill out feedback survey for chance to win free Snacks and Meal plans
-        - unlimited speed, but very limited total bandwidth
+        - private exit point
+        - unlimited speed, but limited bandwidth
+        - fill out our feedback survey for a chance to win free Snack tickets and Meal plans
       button:
         label : "I'll try a Beta bite"
         link : "#"
