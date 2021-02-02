@@ -1,8 +1,0 @@
-[submodule "themes/meghna-hugo"]
-	path = themes/meghna-hugo
-	url = git@github.com:tricyrcle/meghna-hugo.git
-
-[submodule "public"]
-	path = public
-	url = git@github.com:tricyrcle/tricyrcle.github.io.git
-	branch = main
