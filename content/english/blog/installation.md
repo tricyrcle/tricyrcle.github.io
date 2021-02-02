@@ -1,58 +1,82 @@
 ---
-title: "How To Setup Cantina VPN"
-date: 2018-09-12T12:52:30+06:00
-author: Orbiter
+title: "How To Setup Meghna Hugo"
+date: 2018-09-12T14:51:12+06:00
+author: Mark Dinn
 image_webp: images/blog/meghna.webp
 image: images/blog/meghna.jpg
-description : "Place your order and start eating."
+description : "This is meta description"
 ---
 
-## Download and configure the Cantina VPN app
+## Install this template by following those simple steps:
 
-### 1: It's available from the Google Play and Apple iOS app stores
+### STEP-1 : Hugo installation
 
-Insert images for those app stores. Links directly to the app pages?
-
-old info:
+Check this link below for install hugo on your computer.
 [hugo install documentation](https://gohugo.io/getting-started/installing/)
 
-### 2: Open the app
+### STEP-2 : Create your project
 
-If you already placed an order at (the cantina cafeteria) then get it from the pickup window.
-If not, go (here) to find what's on the menu and place an order.
+Hugo provides a `new` command to create a new website.
 
-### 3 : Check out the menu items
+```
+hugo new site <new_project>
+```
 
-Cantina VPN
-Orders
-Settings
-About
+### STEP-3 : Install the theme
+Run this command
+```
+hugo new site meghna-hugo
+```
+and then go to the themes folder inside of meghna-hugo folder. You can also use this command ```cd meghna-hugo/themes``` for going to this folder.
+Then run the command 
+```
+git clone git@github.com:themefisher/meghna-hugo.git
+```
 
-### 4 : Cantina VPN
+Alternatively, you can [download the theme as .zip](https://github.com/themefisher/meghna-hugo/archive/master.zip) file and extract it in the `themes` directory
 
-Enter the Cantina to begin consuming your order.
-Exit the Cantina to stop eating.
+After that you need to go to the `meghna-hugo/exampleSite` folder and copy or cut all the elements, and now go back to the root folder and paste it here.
 
-### 5 : Orders
+open the command prompt again and run `cd ../` command for go back to the root folder.
 
-You can order more than one item on the menu, but you can only eat one at a time.
+### STEP-4 : Host locally
 
-Current menu:
-$5 Snack
-$50 Annual Meal deal
-$0 Free Beta bite
+Launching the website locally by using the following command:
 
-### 6 : Settings
+```
+hugo serve
+```
 
-Bandwidth throttling to slow consumption?
-Optimize speed or latency or privacy?
-Pick a specific exit area?
+Go to `http://localhost:1313`
 
-### 7 : About
+Or you can check this video documentation for installing this template:
+{{< youtube 3O3qvDoVp5g >}}
 
-Version of the Cantina VPN application.
-Check for updates.
-Contact:
-* web
-* email
-* twitter
+### STEP-5 : Basic configuration
+
+When building the website, you can set a theme by using `--theme` option. However, we suggest you modify the configuration file (`config.toml`) and set the theme as the default.
+
+```toml
+# Change the default theme to be use when building the site with Hugo
+theme = "meghna-hugo"
+```
+
+### STEP-6 : Create your first content pages
+
+```
+hugo new blog/post-name.md
+```
+
+### STEP-7 : Build the website
+
+When your site is ready to deploy, run the following command:
+
+```
+hugo
+
+# You can also create a minified version by using this command:
+hugo--minify
+
+```
+
+A `public` folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.
