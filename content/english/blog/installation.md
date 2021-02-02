@@ -1,6 +1,6 @@
 ---
 title: "How To Setup Cantina VPN"
-date: 2021-02-03T09:10:11+08:00
+date: 2018-09-12T12:52:30+06:00
 author: Orbiter
 image_webp: images/blog/meghna.webp
 image: images/blog/meghna.jpg
