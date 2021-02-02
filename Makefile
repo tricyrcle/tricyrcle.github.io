@@ -24,7 +24,6 @@ preview: clean setup
 
 .PHONY: build
 build: clean setup
-	cd public && git checkout main
 	hugo -D --themesDir=themes/
 	@echo 'The site is now ready to deploy within /public.'
 
