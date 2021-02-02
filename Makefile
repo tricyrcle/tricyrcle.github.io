@@ -7,16 +7,18 @@ all:
 .PHONY: setup
 setup: 
 	@echo 'Pulling submodules for forked themes'
-	git submodule update --init --recursive -j 8
-	git pull --recurse-submodules
+	mkdir -p public/
+	mkdir -p themes/
+	git clone git@github.com:tricyrcle/meghna-hugo.git themes/meghna-hugo
 
 .PHONY: clean
 clean:
 	@echo 'Blowing away old builds'
 	rm -rf public/*
+	rm -rf themes/
 
 .PHONY: preview
-preview:
+preview: setup
 	hugo server -D --themesDir=themes/
 	@echo 'The site is now being served at http://localhost:1313'
 
