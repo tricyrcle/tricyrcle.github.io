@@ -1,7 +1,7 @@
 ################################# Service #################################
 service:
   enable : true
-  title : Our Mobile VPN Service
+  title : Cantina VPN for Mobile
   service_item :
     
     # service item loop
@@ -12,7 +12,7 @@ service:
     # service item loop
     - name : You are (not) here.
       icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      content : Select a "you are here" pop out point that isn't actually where you are.
+      content : Select a "you are here" pop out area that isn't actually where you are.
       
     # service item loop
     - name : Distributed payment

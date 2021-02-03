@@ -1,7 +1,7 @@
 ##################################### pricing ##############################
 pricing:
   enable : true
-  title : Our Plans
+  title : Ordering Menu
   pricing_table :
     # pricing table loop
     - name : Snack
@@ -32,7 +32,7 @@ pricing:
       price : free
       unit : try one free taste of our delicious VPN service
       services:
-        - private exit point
+        - random exit point
         - unlimited speed, but limited bandwidth
         - fill out our feedback survey for a chance to win free Snack tickets and Meal plans
       button:
